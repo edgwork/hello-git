@@ -6,20 +6,27 @@
 ##### Encabezado H5
 ###### Encabezado H6
 
-#
+
 # Underlines
 Underline 1
 -----------
 Underline 2
 ===========
 
+
 # Formatos de Énfasis
-- formato ~~tachado~~ única forma
-- formato *italica* de la primera forma
-- formato _italica_ de la segunda forma
-- formato **bold o strong** de la primera forma
-- formato __bold o strong__ de la segunda forma
-- Se puede usar formato *italico*, **bold** y ~~tachado~~ en el mismo parrafo
+formato ~~tachado~~ única forma
+
+formato *italica* con un asterisco
+
+formato _italica_ con un guion bajo
+
+formato **bold o strong** con dos asteriscos
+
+formato __bold o strong__ con dos guines bajos
+
+Se puede usar formato *italico*, **bold** y ~~tachado~~ en el mismo parrafo
+
 
 # Listas
 1. Lista ordenada
@@ -30,16 +37,20 @@ Underline 2
 - Lista desordenada
 - Lista desordenada
 
+
 # Links
 - <a href="http://www.google.com">Esto es un link HTML</a>
 - [Esto es un link en Markdown](http://www.google.com)
 - [Esto es un link al index](index.html)
 
+
 # Imágenes
 ![Logo Hithub](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
+
 # Code Snippets
 Código en JSON:
+
 ```JSON
 {
     "titles": "apples",
@@ -52,7 +63,10 @@ Código en JSON:
     "description": { "text": "...", "sensitive": false }
 }
 ```
+
 Código Java
+
+
 ```Java
 /**
  * @author John Smith <john.smith@example.com>
@@ -71,7 +85,9 @@ public abstract strictfp class L2Char extends L2Object {
   }
 }
 ```
+
 Código Javascript
+
 ```Javascript
 function $initHighlight(block, cls) {
   try {
@@ -111,6 +127,7 @@ func main() {
     return
 }
 ```
+
 Yaml
 ```YAML
 # comment
@@ -154,13 +171,36 @@ array_nested:
 ```
 
 # Tablas
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Edgar Javier | Rivera | 123578 |
+| Marijose     | Rivera | 951234 |
+| Maricela     | Vera   | 753951 |
+| Edgar José   | Rivera | 852741 |
 
 
 # Citas
+Esto es un texto refrente a una cita que pondremos debajo:
+> Esto es una cita
+
+Esto es otro texto que no se relaciona con la cita anterior
+> Esto es otra cita
 
 
-# Líneas Divisioras
+# Líneas Divisoras
+Esto es un texto que será dividido por tres guiones medios
 
+---
+Esto es otro texto dividido por tres asteriscos
+
+***
+Esto es otro texto dividido por tres guiones bajos
+
+___
 
 # Saltos de Línea
+Esto es nuestro primer parrafo
 
+Esto es nuestro segundo parrafo
+
+Esto es nuestro tercer parrafo
