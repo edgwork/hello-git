@@ -36,7 +36,7 @@ Underline 2
 - [Esto es un link al index](index.html)
 
 # Imágenes
-
+![Logo Hithub](https://image.flaticon.com/icons/svg/25/25231.svg)
 
 # Code Snippets
 
