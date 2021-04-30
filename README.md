@@ -162,10 +162,22 @@ array_nested:
 | Edgar José   | Rivera | 852741 |
 
 # Citas
+Esto es un texto refrente a una cita que pondremos debajo:
+> Esto es una cita
 
+Esto es otro texto que no se relaciona con la cita anterior
+> Esto es otra cita
 
-# Líneas Divisioras
+# Líneas Divisoras
+Esto es un texto que será dividido por guiones medios
 
+---
+Esto es otro texto dividido por asteriscos
+
+***
+Esto es otro texto dividido por guiones bajos
+
+___
 
 # Saltos de Línea
 
