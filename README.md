@@ -154,7 +154,12 @@ array_nested:
 ```
 
 # Tablas
-
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Edgar Javier | Rivera | 123578 |
+| Marijose     | Rivera | 951234 |
+| Maricela     | Vera   | 753951 |
+| Edgar José   | Rivera | 852741 |
 
 # Citas
 
