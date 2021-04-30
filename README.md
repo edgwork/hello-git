@@ -39,6 +39,7 @@ Underline 2
 ![Logo Hithub](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 # Code Snippets
+Código en JSON:
 ```JSON
 {
     "titles": "apples",
