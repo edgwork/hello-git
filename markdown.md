@@ -50,7 +50,7 @@ _italicized text_
 
 ### Link
 
-[title](https://www.google.com)
+[title](https://www.example.com)
 
 ### Image
 
