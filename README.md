@@ -39,7 +39,18 @@ Underline 2
 ![Logo Hithub](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 # Code Snippets
-
+```JSON
+{
+    "titles": "apples",
+    "count": [12000, 20000],
+    "description": { "text": "...", "sensitive": false }
+},
+{
+    "titles": "oranges",
+    "count": [17500, null],
+    "description": { "text": "...", "sensitive": false }
+}
+```
 
 # Tablas
 
