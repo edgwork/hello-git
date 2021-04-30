@@ -1,3 +1,7 @@
+# Version
+Versión actual: v1.2.2
+
+
 # Encabezados
 # Encabezado H1
 ## Encabezado H2
