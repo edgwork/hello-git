@@ -52,6 +52,25 @@ Código en JSON:
     "description": { "text": "...", "sensitive": false }
 }
 ```
+Código Java
+```Java
+/**
+ * @author John Smith <john.smith@example.com>
+*/
+package l2f.gameserver.model;
+
+public abstract strictfp class L2Char extends L2Object {
+  public static final Short ERROR = 0x0001;
+
+  public void moveTo(int x, int y, int z) {
+    _ai = null;
+    log("Should not be called");
+    if (1 > 5) { // wtf!?
+      return;
+    }
+  }
+}
+```
 Código Javascript
 ```Javascript
 function $initHighlight(block, cls) {
@@ -67,6 +86,7 @@ function $initHighlight(block, cls) {
       console.log('undefined');
   }
 
+
   return (
     <div>
       <web-component>{block}</web-component>
@@ -76,7 +96,62 @@ function $initHighlight(block, cls) {
 
 export  $initHighlight;
 ```
+Código Go
+```Go
+package main
 
+import "fmt"
+
+func main() {
+    ch := make(chan float64)
+    ch <- 1.0e10    // magic number
+    x, ok := <- ch
+    defer fmt.Println(`exitting now\`)
+    go println(len("hello world!"))
+    return
+}
+```
+Yaml
+```YAML
+# comment
+string_1: "Bar"
+string_2: 'bar'
+string_3: bar
+inline_keys_ignored: sompath/name/file.jpg
+keywords_in_yaml:
+  - true
+  - false
+  - TRUE
+  - FALSE
+  - 21
+  - 21.0
+  - !!str 123
+"quoted_key": &foobar
+  bar: foo
+  foo:
+  "foo": bar
+
+reference: *foobar
+
+multiline_1: |
+  Multiline
+  String
+multiline_2: >
+  Multiline
+  String
+multiline_3: "
+  Multiline string
+  "
+
+ansible_variables: "foo {{variable}}"
+
+array_nested:
+  - a
+  - b: 1
+    c: 2
+  - b
+  - comment
+```
 
 # Tablas
 
